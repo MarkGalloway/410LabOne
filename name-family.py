@@ -1,4 +1,4 @@
-class Student(object):
+class Student():
   """docstring for Student"""
   def __init__(self, name, family):
     self.name = name
