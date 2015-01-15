@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Handcrafted pixels & text by Dan Cederholm
+">
+
+<title>SimpleBits</title>
+
+<link rel="stylesheet" href="/css/main.css" />
+<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
+
+<script src="//use.typekit.net/mdv1qzd.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+</head>
+
+
+<body>
+
+<div class="content">
+  <header role="banner" class="group">
+  <div id="logo">
+  <a href="/"><img src="/img/logo.png" width="60" /></a>
+</div>
+
+  <a href="#" class="menu"><img src="/img/icon-hamburger.png" width="31" class="menu-img" /></a>
+
+  <nav role="navigation">
+    <ul>
+      <li class="active"><a href="/">HOME</a></li>
+      <li><a href="/archive">ARCHIVE</a></li>
+      <li><a href="https://dribbble.com/simplebits">WORK</a></li>
+      <li><a href="/books">BOOKS</a></li>
+      <li><a href="/about">ABOUT</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <div class="content-inner">
+    <div class="home">
+  
+    <div class="post-full">
+      <div class="post">
+        <header>
+          <p class="date">Jan 3, 2015</p>
+          <h2><a href="/2015/01/03/static.html">Hyper Static Text</a></h2>
+        </header>
+
+        <div class="post-content drop">
+          <p>I am not big on resolutions, but like many of you, I’d sure like to write more this year. Writing was the single biggest factor in helping my career, and it’s led me to start new projects, find new interests, helped solved problems, etc. I’m a horrible note-taker, and far too many thoughts and ideas permenantly live in my mind. Which doesn’t scale—especially for someone at my age.</p>
+
+<p>So I’m writing this now. I’m writing it in a plain ol’ text editor using Markdown. I’ll save this file and with a quick command line, it’ll sync with my code on GitHub and be published to my webserver as a <a href="http://jekyllrb.com">static HTML</a> file. I’m going back to basics. Hypertext.</p>
+
+<blockquote>
+  <p>“Getting back to basics feels good … Just me and as many blank text files as I can fill up.”</p>
+</blockquote>
+
+<p>And getting back to basics feels good. Less to get in the way. I no longer care if I’m doing things the best possible way, I just care about writing and publishing. Over the last few years I’ve been busy building a <a href="https://dribbble.com">business</a> and rebuilding a life. I’d love to share more of that here.</p>
+
+<div class="photo">
+  <img src="/img/post/typecase.jpg" />
+
+  
+    <p>Basic publishing tools at EM Letterpress in New Bedford, Mass.</p>
+  
+</div>
+
+<p>Thanks for reading, whomever you are. There are no comments here. No accounts, no stats. Just me and as many blank text files as I can fill up. We’ll see how it goes this time around. If you’re looking for old stuff (1999–2014), links to that archived content should still work. They’ll just forward to vault.simplebits.com.</p>
+
+
+          <p class="end">&bull;</p>
+        </div>
+      </div>
+    </div>
+  
+</div>
+
+
+<!-- pagination links -->
+<!--<div class="page">
+  
+  
+</div>-->
+
+  </div>
+</div>
+
+<div class="extra">
+  <div class="thedeck target">
+    <h3><a href="http://decknetwork.net">Ads by The Deck</a></h3>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <h2><a href="/" class="footer-logo">SimpleBits</a></h2>
+
+  <h3 class="footer-heading">Handcrafted pixels &amp; text</h3>
+
+  <p>Copyright &copy; 1999-2015, SimpleBits LLC. Shipped from Salem, Mass. Hosted by <a href="http://www.mediatemple.net#a_aid=4e25d772bca21">(mt)</a>.</p>
+
+  <ul class="icons">
+    <li><a href="/feed.xml"><img src="/img/icon-rss.png" /></a></li>
+    <li><a href="https://dribbble.com/simplebits"><img src="/img/icon-dribbble.png" /></a></li>
+    <li><a href="http://twitter.com/simplebits"><img src="/img/icon-twitter.png" /></a></li>
+    <li><a href="http://instagram.com/simplebits"><img src="/img/icon-instagram.png" /></a></li>
+    <li><a href="mailto:contact@simplebits.com"><img src="/img/icon-email.png" /></a></li>
+  </ul>
+</footer>
+
+
+<!-- jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.js"></script>
+
+<script>
+/* toggle main nav in small screens */
+$('a.menu').click(
+  function() {
+    $('nav[role="navigation"]').toggle();
+
+    if ($('img.menu-img').attr('src') == '/img/icon-hamburger.png') {
+      $('img.menu-img').attr('src', '/img/icon-x.png');
+    }
+    else {
+      $('img.menu-img').attr('src', '/img/icon-hamburger.png');
+    }
+
+    return false;
+  });
+</script>
+
+<div class="thedeck loading-dock hide">
+<script>
+var $deckAdContainer = $('.thedeck.target');
+if ($deckAdContainer.length) {
+  var id = "DB";
+  var scriptLink = '<script type="text/javascript" src="https://connect.decknetwork.net/deck' + id + '_js.php?' + (new Date().getTime()) + '"></' + 'script>';
+  document.write(scriptLink);
+}
+</script>
+
+<script>
+// Move Deck ad content from loading area to display location
+$deckAdContainer.
+  append($('.thedeck.loading-dock>a')).
+  append($('.thedeck.loading-dock>p'));
+</script>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8023335-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Handcrafted pixels & text by Dan Cederholm
+">
+
+<title>SimpleBits</title>
+
+<link rel="stylesheet" href="/css/main.css" />
+<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
+
+<script src="//use.typekit.net/mdv1qzd.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+</head>
+
+
+<body>
+
+<div class="content">
+  <header role="banner" class="group">
+  <div id="logo">
+  <a href="/"><img src="/img/logo.png" width="60" /></a>
+</div>
+
+  <a href="#" class="menu"><img src="/img/icon-hamburger.png" width="31" class="menu-img" /></a>
+
+  <nav role="navigation">
+    <ul>
+      <li class="active"><a href="/">HOME</a></li>
+      <li><a href="/archive">ARCHIVE</a></li>
+      <li><a href="https://dribbble.com/simplebits">WORK</a></li>
+      <li><a href="/books">BOOKS</a></li>
+      <li><a href="/about">ABOUT</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <div class="content-inner">
+    <div class="home">
+  
+    <div class="post-full">
+      <div class="post">
+        <header>
+          <p class="date">Jan 3, 2015</p>
+          <h2><a href="/2015/01/03/static.html">Hyper Static Text</a></h2>
+        </header>
+
+        <div class="post-content drop">
+          <p>I am not big on resolutions, but like many of you, I’d sure like to write more this year. Writing was the single biggest factor in helping my career, and it’s led me to start new projects, find new interests, helped solved problems, etc. I’m a horrible note-taker, and far too many thoughts and ideas permenantly live in my mind. Which doesn’t scale—especially for someone at my age.</p>
+
+<p>So I’m writing this now. I’m writing it in a plain ol’ text editor using Markdown. I’ll save this file and with a quick command line, it’ll sync with my code on GitHub and be published to my webserver as a <a href="http://jekyllrb.com">static HTML</a> file. I’m going back to basics. Hypertext.</p>
+
+<blockquote>
+  <p>“Getting back to basics feels good … Just me and as many blank text files as I can fill up.”</p>
+</blockquote>
+
+<p>And getting back to basics feels good. Less to get in the way. I no longer care if I’m doing things the best possible way, I just care about writing and publishing. Over the last few years I’ve been busy building a <a href="https://dribbble.com">business</a> and rebuilding a life. I’d love to share more of that here.</p>
+
+<div class="photo">
+  <img src="/img/post/typecase.jpg" />
+
+  
+    <p>Basic publishing tools at EM Letterpress in New Bedford, Mass.</p>
+  
+</div>
+
+<p>Thanks for reading, whomever you are. There are no comments here. No accounts, no stats. Just me and as many blank text files as I can fill up. We’ll see how it goes this time around. If you’re looking for old stuff (1999–2014), links to that archived content should still work. They’ll just forward to vault.simplebits.com.</p>
+
+
+          <p class="end">&bull;</p>
+        </div>
+      </div>
+    </div>
+  
+</div>
+
+
+<!-- pagination links -->
+<!--<div class="page">
+  
+  
+</div>-->
+
+  </div>
+</div>
+
+<div class="extra">
+  <div class="thedeck target">
+    <h3><a href="http://decknetwork.net">Ads by The Deck</a></h3>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <h2><a href="/" class="footer-logo">SimpleBits</a></h2>
+
+  <h3 class="footer-heading">Handcrafted pixels &amp; text</h3>
+
+  <p>Copyright &copy; 1999-2015, SimpleBits LLC. Shipped from Salem, Mass. Hosted by <a href="http://www.mediatemple.net#a_aid=4e25d772bca21">(mt)</a>.</p>
+
+  <ul class="icons">
+    <li><a href="/feed.xml"><img src="/img/icon-rss.png" /></a></li>
+    <li><a href="https://dribbble.com/simplebits"><img src="/img/icon-dribbble.png" /></a></li>
+    <li><a href="http://twitter.com/simplebits"><img src="/img/icon-twitter.png" /></a></li>
+    <li><a href="http://instagram.com/simplebits"><img src="/img/icon-instagram.png" /></a></li>
+    <li><a href="mailto:contact@simplebits.com"><img src="/img/icon-email.png" /></a></li>
+  </ul>
+</footer>
+
+
+<!-- jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.js"></script>
+
+<script>
+/* toggle main nav in small screens */
+$('a.menu').click(
+  function() {
+    $('nav[role="navigation"]').toggle();
+
+    if ($('img.menu-img').attr('src') == '/img/icon-hamburger.png') {
+      $('img.menu-img').attr('src', '/img/icon-x.png');
+    }
+    else {
+      $('img.menu-img').attr('src', '/img/icon-hamburger.png');
+    }
+
+    return false;
+  });
+</script>
+
+<div class="thedeck loading-dock hide">
+<script>
+var $deckAdContainer = $('.thedeck.target');
+if ($deckAdContainer.length) {
+  var id = "DB";
+  var scriptLink = '<script type="text/javascript" src="https://connect.decknetwork.net/deck' + id + '_js.php?' + (new Date().getTime()) + '"></' + 'script>';
+  document.write(scriptLink);
+}
+</script>
+
+<script>
+// Move Deck ad content from loading area to display location
+$deckAdContainer.
+  append($('.thedeck.loading-dock>a')).
+  append($('.thedeck.loading-dock>p'));
+</script>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8023335-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="http://softwareprocess.es/static/SoftwareProcess.es.html">here</a>.</p>
+</body></html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>SoftwareProcess.es Wiki - Abram Hindle: SoftwareProcess.es</title>
+<link type="text/css" rel="stylesheet" href="static.css" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div class="header"><span class="gotobar bar"><a class="local" href="SoftwareProcess.es.html">SoftwareProcess.es</a> <a class="local" href="About.html">About</a> <a class="local" href="Projects.html">Projects</a> </span><h1>SoftwareProcess.es</h1></div><div class="content"><p><h2>Research Promotion Site of Abram Hindle</h2></p><p>
+<table border=0>
+<tr>
+<td valign="top"><img src="http://softwareprocess.es/z/abram-smiling-profile.png"/></td>
+<td valign="top">
+Abram is an assistant professor at the <a href="https://www.ualberta.ca/">University of Alberta</a>, in Edmonton, Alberta, Canada within the <a href="https://www.cs.ualberta.ca/">Department of Computing Sciences</a>. He researches software engineering, mining software repositories, software process recovery and green mining (the study of software change versus software power consumption).
+</td>
+</tr>
+</table>
+</p><ul><li><a class="local" href="Abram_Hindle.html">A general overview of my Research Record</a> <a class="url http outside" href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/h/Hindle:Abram.html">DBLP</a></li><li><a class="url http outside" href="http://softwareprocess.es/a/cv-wo.pdf">Current Version of my Curriculum Vitae</a></li><li><a class="local" href="Collaborators.html">I'd like to thank my numerous collaborators!</a></li><li><a class="url http outside" href="http://softwareprocess.es/blog/">Abram's Blog</a></li></ul><p>What can I offer you? </p><ul><li>Methods, Technology and Tools for characterizing past developer behaviour in a software project, based on information stored in <a class="local" href="Source_Control_Repositories.html">Source Control Repositories</a>.</li><li>Methodology and tools to relate software evolution and software power consumption / software energy use / software power use: <a class="local" href="GreenMining.html">Green Mining</a></li></ul><p>What questions do I seek to help answer? </p><ul><li><a class="local" href="ContextualApproachToBugDeduplication.html">Instead of applying off the shelf learners to bug deduplication</a>, let's leverage software engineering domain knowledge to aid bug deduplication.</li><li><a class="local" href="DeficientDocumentation.html">Can StackOverflow help us find deficiently documentated topics of development?</a>; we answer this question using latent Dirichlet allocation (LDA).</li><li><a class="local" href="RelatingRequirements.html">Can we see the topics of requirements that commits are addressing?</a> Can we relate implementation and requirements over time?</li><li><a class="local" href="Recurrent_Behaviour.html">Recurrent Behaviour</a>: Is there recurrent behaviour in software development? Well take a look at <a class="url http outside" href="http://softwareprocess.us/fftroot/">these plots!</a><ul><li><a class="local" href="MultiFractal.html">Recurrent Behaviour is complicated</a>: In fact, it is often <a class="local" href="MultiFractal.html">multifractal</a>!</li></ul></li><li><a class="local" href="STBD.html">How</a> can we characterize how developers behave around release time?</li><li><a class="local" href="Software_Process_Recovery.html">Software Process Recovery</a> - how can we start to extract software development processes from software history? Also see <a class="local" href="CSER_Keynote.html">CSER Keynote</a></li><li><a class="local" href="What's_in_a_Name.html">What's in a Name</a> - How can we automatically name developer topics?</li><li><a class="local" href="RUPV.html">Recovered Unified Process Views</a> - Extract Unified Process Views from software histories.</li><li><a class="local" href="Readability.html">Software Readability</a> - What are we actually saying when we talk about the readability of source code?</li><li><a class="local" href="Issues.html">Got Issues?</a> - Do new features and new improvements affect defects?</li><li><a class="local" href="Fragmentation.html">Is there EVIDENCE of Android Fragmentation?</a> - How portability affects the bug reports within Android.</li><li><a class="local" href="WhiteSpace.html">Can we cheaply measure the complexity of revisions?</a></li></ul><p>Students and Teaching: </p><ul><li>Current Masters Students:<ul><li><a class="url http outside" href="http://webdocs.cs.ualberta.ca/~chenlei1">Chenlei Zhang (MSc)</a></li><li>Anahita Alipour (Msc)</li><li>Joshua Campbell (<a class="local" href="PhD.html">PhD</a>)</li></ul></li><li>Courses:<ul><li>CMPT 301 Intro to SE, Fall 2012 and Winter 2013,</li><li>CMPUT 664 Topics in Mining Software Repositories, Processes, and Artifacts Winter 2013</li></ul></li></ul><p>Prospective Graduate Students: </p><ul><li>Are you interested in <a class="local" href="GreenMining.html">Green Mining</a>?</li><li><a class="local" href="Future_Students.html">Guide to Prospective Students</a></li></ul><p>My thesis work: <a class="local" href="PhD.html">PhD</a></p><hr /><p>Free Software Engineering Data: </p><ul><li><a class="local" href="Datasets.html">Datasets</a></li></ul><hr /><p>Research relevant work: </p><ul><li><a class="local" href="Climate_Modelling.html">Climate Modelling</a></li></ul><hr /><p>Current Service: </p><ul><li>ICSE 2013 Web Co-Chair</li><li>MSR 2013 Program Committee</li><li>ICSM 2013 Program Committee</li><li>SCAM 2013 Program Committee</li><li>CSMR 2013 ERA Program Committee</li><li>ICSM 2014 Tool Demo Co-Chair</li><li>Reviewed for EMSE, TSE, TOSEM, JSS</li><li>ICSE2014 Tool-demo PC</li></ul><hr /><p>Awards: </p><ul><li>2013 Software Engineering Innovation Foundation Award <ul><li><a class="url http" href="http://research.microsoft.com/en-us/collaboration/focus/cs/seif-rfp.aspx">http://research.microsoft.com/en-us/collaboration/focus/cs/seif-rfp.aspx</a></li></ul></li><li>NSERC Discovery Grant</li><li>MSR 2012 Best Paper Award</li></ul><hr /><p>Potentially fun things: </p><ul><li><a class="url http outside" href="https://github.com/abramhindle/">My Github Repos</a></li><li><a class="url http outside" href="https://bitbucket.org/abram/">My Bitbucket Repos</a></li><li><a class="local" href="Twitter-IRCD_plus_Search_Channel.html">Twitter-IRCD plus Search Channel</a></li><li><a class="local" href="sketcha-mo-phone.html">Sketcha-mo-phone: Play music by doodling lines</a></li><li><a class="local" href="Sand-Game.html">Sonified Sand/Dust game in Haskell!</a></li><li><a class="local" href="Harbinger.html">Harbinger: Sonifying the Desktop</a></li><li><a class="local" href="FileStore.html">Store Files Remotely and Slightly Safely</a></li><li><a class="local" href="Cup-O-mo-phone.html">Cup-O-mo-phone: a touch based instrument</a></li><li><a class="local" href="Mandelbulb.html">A 3D Mandelbrot fractal, implementations</a></li><li><a class="local" href="Veve.html">Musical Voudon/Voodoo Veve drawing</a></li><li><a class="local" href="WebBasedComputerMusic.html">Take web interfaces and make them musical!</a></li><li><a class="url http outside" href="http://skruntskrunt.ca/">My musical endeavours</a></li><li><a class="url http outside" href="http://www.youtube.com/user/abramh666">My youtube channel</a></li><li><a class="local" href="EdmontonProgrammingUserGroups.html">Programming User Groups in Edmonton</a> </li></ul><hr /><p><a class="url http outside" href="http://swag.uwaterloo.ca/~ahindle/">Old Research Page</a> <a class="url http outside" href="http://softwareprocess.us/index.cgi?action=rss">RSS Feed</a> </p><hr /><p class="image"><a class="image outside" href="http://softwareprocess.es/z/web-at-softwareprocess-dot-es.png"><img class="url outside" src="http://softwareprocess.es/z/web-at-softwareprocess-dot-es.png" alt /></a> Email me at: web at softwareprocess dot es</p><p>Office: 4-47 Athabasca Hall, Department of Computing Science, UAlberta</p></div><div class="footer"><hr /> <span class="gotobar bar"><a class="local" href="SoftwareProcess.es.html">SoftwareProcess.es</a> <a class="local" href="About.html">About</a> <a class="local" href="Projects.html">Projects</a> </span> <span class="edit"></span> <span class="time"><span class="time"><br /> Last edited 2013-06-14 00:01 UTC by <a class="author" title="from S0106602ad06f7992.ed.shawcable.net">abram</a> <a class="diff">(diff)</a></span></span></div></body></html>{
+  "method": "PUT",
+  "uri": "/",
+  "path": {
+    "name": "/",
+    "query": "",
+    "params": {}
+  },
+  "headers": {
+    "x-forwarded-for": "129.128.41.39",
+    "host": "echo.httpkit.com",
+    "user-agent": "curl/7.22.0 (x86_64-pc-linux-gnu) libcurl/7.22.0 OpenSSL/1.0.1 zlib/1.2.3.4 libidn/1.23 librtmp/2.3",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "41"
+  },
+  "body": "{\"firstName\":\"Kris\", \"lastName\":\"Jordan\"}",
+  "ip": "127.0.0.1",
+  "powered-by": "http://httpkit.com",
+  "docs": "http://httpkit.com/echo"
+}
