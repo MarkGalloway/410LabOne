@@ -5,16 +5,15 @@ class Student(object):
     self.family = family
     self.courseMarks = {}
 
-  def __str__(self):
-    return "%s _ %s _ %d" %(self.name, self.family, self.average())
-
   def addCourse(self, course, mark):
     self.courseMarks[course] = mark
   
   def average(self):
     return sum(self.courseMarks.values()) / len(self.courseMarks)
 
+# Test
 student = Student("Mark", "Galloway")
 student.addCourse("Math", 100)
 student.addCourse("C410", 90)
-print student
+student.addCourse("English 101", 80)
+assert(student.average() == 90)
